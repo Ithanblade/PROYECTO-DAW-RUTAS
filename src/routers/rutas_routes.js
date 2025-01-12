@@ -12,7 +12,7 @@ import {
 } from "../controllers/ruta_controller.js";
 
 import verificarAutenticacion from "../middlewares/autenticacion.js";
-import { listarParadas } from '../controllers/parada_controller.js';
+
 
 
 router.get("/rutas",  listarRutas);
